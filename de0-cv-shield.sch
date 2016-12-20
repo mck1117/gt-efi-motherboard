@@ -185,9 +185,9 @@ Text GLabel 5850 9650 2    60   Input ~ 0
 ftdi_tx
 Text GLabel 5850 9750 2    60   Input ~ 0
 ftdi_rx
-Text GLabel 13500 4300 2    60   Input ~ 0
-ftdi_rx
 Text GLabel 13500 4200 2    60   Input ~ 0
+ftdi_rx
+Text GLabel 13500 4300 2    60   Input ~ 0
 ftdi_tx
 $Comp
 L LED D101
@@ -740,7 +740,6 @@ NoConn ~ 5600 9950
 NoConn ~ 4200 10250
 NoConn ~ 4200 9650
 NoConn ~ 3850 9850
-NoConn ~ 5600 10350
 NoConn ~ 5600 10450
 $Sheet
 S 1000 7000 1300 1000
@@ -1152,13 +1151,9 @@ Wire Bus Line
 Wire Bus Line
 	172050 -111600 162200 -111600
 Wire Wire Line
-	6550 10050 6550 10150
+	6550 10050 6550 10250
 Wire Wire Line
-	6550 10150 5600 10150
-Wire Wire Line
-	5600 10250 6900 10250
-Wire Wire Line
-	6900 10250 6900 10050
+	6900 10050 6900 10350
 Wire Wire Line
 	6550 9150 6550 9250
 Wire Wire Line
@@ -1177,10 +1172,6 @@ Wire Wire Line
 	14600 2900 14750 2900
 Wire Wire Line
 	2700 10800 2700 10950
-Wire Wire Line
-	13500 4200 13300 4200
-Wire Wire Line
-	13500 4300 13300 4300
 Wire Wire Line
 	9950 10350 9950 10400
 Wire Wire Line
@@ -1838,4 +1829,13 @@ Wire Wire Line
 Connection ~ 12300 8450
 Wire Wire Line
 	18750 10800 18750 10850
+Wire Wire Line
+	6550 10250 5600 10250
+Wire Wire Line
+	6900 10350 5600 10350
+NoConn ~ 5600 10150
+Wire Wire Line
+	13500 4200 13300 4200
+Wire Wire Line
+	13300 4300 13500 4300
 $EndSCHEMATC
