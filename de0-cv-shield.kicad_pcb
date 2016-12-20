@@ -2,8 +2,8 @@
 
   (general
     (links 280)
-    (no_connects 5)
-    (area 68.529999 52.654999 157.530001 131.495001)
+    (no_connects 1)
+    (area 63.353943 51.1668 159.3075 132.5182)
     (thickness 1.6)
     (drawings 6)
     (tracks 1217)
@@ -5500,7 +5500,7 @@
   (gr_text "Wreck Racing EFI v 0.1\nMatthew Kennedy 19 Dec 2016\n" (at 147.828 101.854 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Wreck Racing EFI\nv 0.1\nMatthew Kennedy\n19 Dec 2016" (at 118.872 90.297 360) (layer B.SilkS)
+  (gr_text "Wreck Racing EFI\nv 0.1\nMatthew Kennedy\n19 Dec 2016" (at 118.872 90.297) (layer B.SilkS)
     (effects (font (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 157.48 131.445) (end 68.58 131.445) (layer Edge.Cuts) (width 0.1))
